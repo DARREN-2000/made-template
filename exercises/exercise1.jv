@@ -1,3 +1,11 @@
+// SPDX-FileCopyrightText: 2023 Friedrich-Alexander-Universitat Erlangen-Nurnberg
+//
+// SPDX-License-Identifier: AGPL-3.0-only
+
+// 1. This Jayvee model describes a pipeline 
+// from a CSV file in the web 
+// to a SQLite file sink.
+
 pipeline AirportsPipeline {
 
 	AirportsExtractor
@@ -40,19 +48,19 @@ pipeline AirportsPipeline {
 	value.length == 1;
 
 	constraint OnlyCapitalLettersAndDigits on text:
-    value matches /^[A-Z0-9]*$/;
+        value matches /^[A-Z0-9]*$/;
 
 	valuetype AirportCodeOr0 oftype text {
 	constraints: [
-			OnlyCapitalLettersAndDigits
-		];
+	    OnlyCapitalLettersAndDigits
+	    ];
 	}
 	
 	valuetype AbbrevationOfLength1 oftype text {
-    constraints: [
-        LengthExactlyOne,
-		OnlyCapitalLettersAndDigits
-    ];
+        constraints: [
+            LengthExactlyOne,
+            OnlyCapitalLettersAndDigits
+            ];
 	}
 
 	block AirportsLoader oftype SQLiteLoader {
