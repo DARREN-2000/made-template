@@ -18,5 +18,5 @@ jobs:
         python-version: '3.x'
 
     - name: Run tests
-      run: exercises/tests.sh  # Replace with your actual test command/script
+      run: project/tests.sh  # Replace with your actual test command/script
 
