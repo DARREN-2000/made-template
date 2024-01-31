@@ -1,13 +1,15 @@
 ## Project Title: 
 # Unveiling the Relationship between GDP and Inflation Rate and Predicting GDP using Regression in Germany
 
-Author: Morris Darren Babu
+### Author: Morris Darren Babu
 
-Date: Januaury, 2024
+### Date: Januaury, 2024
+
 
 ### Description:
 
 This project investigates the relationship between gross domestic product (GDP) and inflation rate in Germany and utilizes regression analysis to forecast future GDP values based on inflation rate data.
+
 
 ### Data Sources:
 
@@ -18,12 +20,8 @@ https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=DE
 link to World Bank inflation data for Germany: 
 https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=DE
 
-### Data Preprocessing:
 
-#### GDP data:
-Remove rows with missing values.Convert the data into numerical format (e.g., convert "200,000" to 200000). Standardize the data to ensure that all variables have a mean of 0 and a standard deviation of 1.
-Inflation rate data:
-Remove rows with missing values. Convert the data into numerical format. Ensure that the inflation rate data is in the same timeframe as the GDP data.
+### Data Preprocessing:
 
 #### Exploratory Data Analysis (EDA):
 Scatter plots: Visualize the relationship between GDP and inflation rate over time.
@@ -58,4 +56,3 @@ The model performs well on historical data but may not be accurate in forecastin
 Other economic factors, such as interest rates, unemployment rates, and government spending, may also influence GDP growth.
 Expanding the analysis to a broader range of countries could provide more generalizable insights.
 Incorporating advanced machine learning techniques could improve the forecasting accuracy.
-
