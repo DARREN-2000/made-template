@@ -8,13 +8,13 @@ Before you begin, make sure you have [Python](https://www.python.org/) and [Jayv
 # Project Work
 Your data engineering project will run alongside lectures during the semester. We will ask you to regularly submit project work as milestones so you can reasonably pace your work. All project work submissions **must** be placed in the `project` folder.
 
-##### Project Title: Unveiling the Relationship between GDP and Inflation Rate and Predicting GDP using Regression in Germany
+### Project Title: Unveiling the Relationship between GDP and Inflation Rate and Predicting GDP using Regression in Germany
 
 Author: Morris Darren Babu
 
 Date: Januaury, 2024
 
-##### Description:
+### Description:
 
 This project investigates the relationship between gross domestic product (GDP) and inflation rate in Germany and utilizes regression analysis to forecast future GDP values based on inflation rate data.
 
